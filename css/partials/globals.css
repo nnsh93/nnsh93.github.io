@@ -1,0 +1,47 @@
+/* Font Sizing */
+html {
+  font-size: calc(16px + (20-16) * ((100vw - 300px) / (1600 - 300)));
+  letter-spacing: 0.1em;
+}
+
+/* Buttons */
+/* Buttons transition variable */
+:root {
+  --linear: linear 0.25s;
+}
+
+.link {
+  text-decoration: none;
+  font: 800 normal 14px/1em var(--roboto);
+  margin-right: 10px;
+  border-radius: 4px;
+  padding: 12.5px 20px;
+  transition: var(--linear);
+  border: 2px solid var(--primary-color2);
+}
+
+.link:hover {
+  transition: var(--linear);
+  border: 2px solid var(--primary-color2);
+}
+
+.primary-link {
+  color: var(--primary-color1);
+  background-color: var(--primary-color2);
+}
+
+.primary-link:hover {
+  color: var(--primary-color2);
+  background-color: transparent;
+
+}
+
+.secondary-link {
+  border: 2px solid var(--primary-color2);
+  color: var(--primary-color2);
+}
+
+.secondary-link:hover {
+  color: var(--primary-color1);
+  background-color: var(--primary-color2);
+}

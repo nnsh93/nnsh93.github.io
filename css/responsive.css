@@ -1,0 +1,25 @@
+/*******************************************
+START ABOUT ME AREA 
+*******************************************/
+
+@media only screen and (max-width: 991px) {
+    #banner-area .about-left {
+        text-align: center;
+        position: relative;
+    }
+
+    #banner-area .about-left .social-media {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #banner-area .about-right {
+        display: none;
+    }
+}
+
+/*******************************************
+END ABOUT ME AREA 
+*******************************************/

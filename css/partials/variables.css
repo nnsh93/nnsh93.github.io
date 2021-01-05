@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color1: #00296B;
+  --primary-color2: #FDC500;
+  --primary-color3: #00509D;
+  --button-color: #FFD500;
+  --roboto: 'Roboto',cursive;
+}

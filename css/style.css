@@ -1,0 +1,90 @@
+@import url('/css/fonts.css');
+@import url('/css/responsive.css');
+@import url('/css/partials/globals.css');
+@import url('/css/partials/variables.css');
+
+/*******************************************
+START NAVIGATION BAR
+*******************************************/
+#home .home-area {
+  padding: 0 5%;
+  position: relative;
+  z-index: 999;
+}
+
+#home a {
+  font-size: 0.5em;
+}
+
+#home ul {
+  padding: 0;  
+}
+
+#home ul li a {
+  text-transform: uppercase;
+  font: bold normal 14px/16px var(--roboto);
+  letter-spacing: 0.2em;
+  color: var(--primary-color1);
+}
+
+/*******************************************
+END NAVIGATION BAR
+*******************************************/
+
+/*******************************************
+START BANNER AREA 
+*******************************************/
+#banner-area {
+  position: relative;
+  top: -98px;
+}
+
+#banner-area .about-left {
+  position: relative;
+  height: 100vh;
+  padding: 0 5%;
+}
+
+#banner-area .about-left .about-left-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 50px 0px;
+}
+
+#banner-area .about-left .about-left-content h5 {
+  color: var(--primary-color2);
+  font: bold normal 1rem/25px var(--roboto);
+}
+
+#banner-area .about-left .about-left-content h4 {
+  font: 800 normal 1.5rem var(--roboto);
+}
+
+#banner-area .about-left .about-left-content h3 {
+  font: 500 normal 1.125rem/50px var(--roboto);
+}
+
+#banner-area .about-left .about-left-content .first-name {
+  color: var(--primary-color2);
+}
+
+#banner-area .about-left .social-media {
+  position: absolute;
+  bottom: 7.5%;
+}
+
+#banner-area .about-left .social-media a {
+  margin: 5px;
+}
+
+#banner-area .about-left .social-media img {
+  width: 30px;
+}
+
+#banner-area .about-right {
+  background-color: var(--primary-color2);
+}
+/*******************************************
+END BANNER AREA 
+*******************************************/
